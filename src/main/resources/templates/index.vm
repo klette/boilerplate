@@ -1,0 +1,38 @@
+#include("templates/base/header.vm")
+<div class="row">
+    <div class="span16 alert-message success">
+    <a class="close" href="#">×</a>
+    <p><strong>Holy guacamole!</strong> Best check yo self, you're not looking too good.</p>
+    </div>
+</div>
+<div class="row">
+ <div class="span6">
+  <h1>Hi from Boilerplate</h1>
+ </div>
+</div>
+<div class="row">
+<div class="span6">
+<h2>Tech</h2>
+<p>
+Some of the tech used in boilerplate. Mostly to show off Twitter Bootstrap.
+</p>
+</div>
+<div class="span10">
+<table class="zebra-striped">
+<thead>
+<tr>
+  <th>Tech</th>
+  <th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Java 6</td><td>The language and the JVM</td></tr>
+<tr><td>Google Guice</td><td>DI, AOP, Singleton mangement etc</td></tr>
+<tr><td>Apache Velocity</td><td>Templates</td></tr>
+<tr><td>Jetty 8</td><td>javax.servlet-api and development server</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+#include("templates/base/footer.vm")
