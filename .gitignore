@@ -1,1 +1,3 @@
-.settings\n.classpath\.project
+.settings
+.classpath
+.project
